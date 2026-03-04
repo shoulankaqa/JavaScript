@@ -17,6 +17,20 @@
 
 // №2
 // Выведите в консоль все числа в промежутке от 1 до 1000, сумма первой и второй цифры которых равна пяти.
+//     const sumFirstSecond = (a, b) => {
+//     for(let i = a; i <= b; i++){
+//         let str = String(i)
+//         let first = str[0]
+//         let second = str[1]
+//         if(Number(first) + Number(second) === 5) {
+//             console.log(i)
+//
+//         }
+//     }
+// }
+//
+// sumFirstSecond(1, 1000)
+
 
 
 // №3
@@ -48,10 +62,10 @@
 // [1, 2, 3, 4, 5, 6]
 // Найдите сумму первой половины элементов этого массива.
 
-const sumFirstHalf = (arr) => {
-    const middle = Math.floor(arr.length / 2);
-    return arr.slice(0, middle).reduce((a, b) => a + b);
-}
+// const sumFirstHalf = (arr) => {
+//     const middle = Math.floor(arr.length / 2);
+//     return arr.slice(0, middle).reduce((a, b) => a + b);
+// }
 
-console.log(sumFirstHalf([1, 2, 3, 4, 5, 6]));
-console.log(sumFirstHalf([1, 2, 3, 4, 5]));
+// console.log(sumFirstHalf([1, 2, 3, 4, 5, 6]));
+// console.log(sumFirstHalf([1, 2, 3, 4, 5]));
